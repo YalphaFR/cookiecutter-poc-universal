@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write   # <-- CHANGÉ DE "read" À "write"
+  pull-requests: write
 
 jobs:
   validate:
@@ -28,3 +28,5 @@ jobs:
     steps:
       - name: Auto Release & Tagging
         uses: googleapis/release-please-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # <-- Ligne indispensable à ajouter ici
