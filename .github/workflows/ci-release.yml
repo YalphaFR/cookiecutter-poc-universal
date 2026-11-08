@@ -27,4 +27,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Auto Release & Tagging
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v4
