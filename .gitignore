@@ -1,0 +1,40 @@
+# --- Fichiers Système & OS ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+
+# --- IDEs & Éditeurs de code ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Environnements virtuels & Python (utiles pour les hooks/tests) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.tox/
+dist/
+build/
+*.egg-info/
+
+# --- Node.js / JavaScript (si des outils de l'écosystème JS trainent) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Dossiers de test Cookiecutter en local ---
+# Lorsque tu testes ton template en local avec "cookiecutter .",
+# cela génère un dossier de POC. Pense à ignorer tes dossiers de tests récurrents :
+mon-super-poc/
+mon-super-poc-de-test/
+test-poc/
+output/

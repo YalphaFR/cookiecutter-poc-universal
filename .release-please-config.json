@@ -1,0 +1,9 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "package-name": "cookiecutter-poc-universal",
+      "changelog-path": "CHANGELOG.md"
+    }
+  }
+}
